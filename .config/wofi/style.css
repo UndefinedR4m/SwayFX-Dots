@@ -1,0 +1,32 @@
+* {
+  border-radius: 0;
+}
+
+window {
+  font-size: 14px;
+  font-family:'GohuFont 14 Nerd Font Mono';
+  background-color: #f7f5eb;
+}
+
+#entry {
+  border: 2px solid #f7f5eb;
+}
+
+#entry:selected {
+  background-color: #3bad7c;
+}
+
+#input {
+  background-color: #3bad7c;
+  color: #f7f5eb;
+  border: 2px solid #f7f5eb;
+}
+
+#scroll {
+  margin: 0px;
+  border: none;
+}
+
+#input > image.left {
+  color: white;
+}
